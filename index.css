@@ -1,0 +1,25 @@
+
+
+
+
+
+
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 32, 32);
+    height: 10rem;
+    width: 40rem;
+    border-radius: 1rem;
+
+}
+
+.homepage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

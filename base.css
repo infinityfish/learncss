@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+:root {
+    /* --main-bg-color:  rgb(48, 7, 32); */
+    --main-bg-color: rgb(34, 32, 32);
+    --lighter-bg-color: rgb(41, 39, 39);
+  }
+  
+
+body {
+    background: var(--lighter-bg-color);
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+.appContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 5vh 80vh 5vh;
+    margin: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Audiowide;
+}
+
+.logo-right {
+    color: rgb(189, 175, 142);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-bg-color);
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 360px;
+    width: 240px;
+    border-radius: 1rem;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
